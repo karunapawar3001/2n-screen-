@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.phone-container{
+    width:390px;
+    background:#ffffff;
+    min-height:100vh;
+}
+
+/* Header */
+
+.top-header{
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+    border-bottom:1px solid #ececec;
+}
+
+.left-header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.logo-box{
+    width:92px;
+    height:46px;
+    border:1px solid #d9d9d9;
+    border-radius:3px;
+    background:#f3f3f3;
+    font-size:11px;
+    color:#888;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.logo-box span{
+    font-size:10px;
+}
+
+.bell{
+    font-size:22px;
+}
+
+/* Main */
+
+main{
+    padding:18px;
+}
+
+.top-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.back{
+    font-size:22px;
+}
+
+.requests-link{
+    color:#666;
+    font-size:14px;
+}
+
+h1{
+    font-size:34px;
+    font-weight:600;
+    color:#333;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#666;
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:18px;
+}
+
+/* Search */
+
+.search-box{
+    display:flex;
+    align-items:center;
+    border:1px solid #cfcfcf;
+    border-radius:4px;
+    padding:12px 14px;
+    margin-bottom:12px;
+}
+
+.search-box i{
+    color:#888;
+    margin-right:10px;
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    width:100%;
+    font-size:18px;
+    color:#444;
+    background:transparent;
+}
+
+/* Card */
+
+.brand-card{
+    border:1px solid #e6e6e6;
+    border-radius:10px;
+    padding:14px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.brand-left{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.brand-image{
+    width:58px;
+    height:58px;
+    background:#efefef;
+    color:#b7b7b7;
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:11px;
+    text-align:center;
+}
+
+.brand-name{
+    font-size:19px;
+    font-weight:600;
+    color:#2d2d2d;
+}
+
+.category{
+    color:#637082;
+    font-size:15px;
+}
+
+.brand-card a{
+    font-size:15px;
+    color:#5b5b5b;
+    font-weight:500;
+}
+
+.requested{
+    color:#a9a9a9;
+    font-size:15px;
+}
+
+.requested i{
+    color:#1db954;
+    margin-left:4px;
+}
+
+/* Footer */
+
+.footer-link{
+    text-align:center;
+    margin-top:24px;
+    text-decoration:underline;
+    color:#333;
+    font-size:14px;
+}      
